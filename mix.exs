@@ -32,7 +32,7 @@ defmodule Finance.Mixfile do
 
   defp deps do
     [
-      {:decimal, "~> 2.0"},
+      {:decimal, "~> 2.1.1"},
       {:ex_doc, ">= 0.0.0", only: :dev, runtime: false}
     ]
   end
