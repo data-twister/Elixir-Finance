@@ -3,8 +3,8 @@ defmodule Finance.Mixfile do
 
   def project do
     [app: :financials,
-      version: "0.1.0",
-      elixir: "~> 1.10.2",
+      version: "0.1.1",
+      elixir: ">= 1.10.2",
       description: "A finance library for elixir.",
       package: package(),
       description: description(),
